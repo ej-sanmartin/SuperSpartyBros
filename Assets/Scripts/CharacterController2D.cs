@@ -304,7 +304,7 @@ public class CharacterController2D : MonoBehaviour {
 		_animator.SetTrigger("Victory");
 
 		if (GameManager.gm) // do the game manager level compete stuff, if it is available
-			GameManager.gm.LevelCompete();
+			GameManager.gm.LevelComplete();
 	}
 
 	// public function to respawn the player at the appropriate location

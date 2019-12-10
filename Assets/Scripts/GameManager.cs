@@ -174,7 +174,7 @@ public class GameManager : MonoBehaviour {
 	}
 
 	// public function for level complete
-	public void LevelCompete() {
+	public void LevelComplete() {
 		// save the current player prefs before moving to the next level
 		PlayerPrefManager.SavePlayerState(score,highscore,lives);
 
